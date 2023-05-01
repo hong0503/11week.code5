@@ -8,9 +8,9 @@ public:
     Rectangle();
     Rectangle(double, double);
     double getWidth();
-    void setWidth(double );
+    void setWidth(double);
     double getHeight();
-    void setHeight(double h);
+    void setHeight(double);
     double getArea();
 
 };
