@@ -8,7 +8,7 @@ public:
     Rectangle();
     Rectangle(double, double);
     double getWidth();
-    void setWidth(double);
+    void setWidth(double );
     double getHeight();
     void setHeight(double h);
     double getArea();
