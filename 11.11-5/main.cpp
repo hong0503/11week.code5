@@ -3,7 +3,7 @@
 #include"Rectangle.h"
 using namespace std;
 Rectangle* sortBySelection(Rectangle rectInAndOut[], int size) {
-    Rectangle* rectOut = new Rectangle;
+    Rectangle* rectOut = new Rectangle[size];
     for (int i = 0; i < size - 1; i++) {
         int place = i;
         for (int j = i + 1; j < size; j++) {
